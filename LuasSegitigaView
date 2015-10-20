@@ -1,0 +1,21 @@
+#Luas Segitiga View
+
+package Kuis_Panel;
+
+import Kuis_Perhitungan.LuasSegitiga;
+
+public class Segitiga extends javax.swing.JPanel {
+
+    
+    public Segitiga() {
+        initComponents();
+    }
+    
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    LuasSegitiga a = new LuasSegitiga();
+    int alas = Integer.parseInt(jTextField1.getText());
+    int tinggi = Integer.parseInt(jTextField2.getText());
+    double hasil = a.luasSegitiga(alas, tinggi);
+    
+    jLabel3.setText("Hasil = "+hasil);
+    }

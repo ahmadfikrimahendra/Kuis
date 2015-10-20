@@ -1,0 +1,12 @@
+# Luas Segitiga Perhitungan
+
+package Kuis_Perhitungan;
+
+public class LuasSegitiga {
+    double Luas;
+    public double luasSegitiga(double alas,double tinggi){
+        Luas = (alas*tinggi)/2;
+        return Luas;
+    }
+    
+}

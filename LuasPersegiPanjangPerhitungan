@@ -1,0 +1,12 @@
+# Luas Persegi Panjang Perhitungan
+package Kuis_Perhitungan;
+
+public class LuasPersegi_Panjang {
+    int Luas ;
+    public int luasPersegiPanjang(int panjang, int lebar ){
+        Luas = panjang*lebar;
+        return Luas;
+        
+    }
+    
+}

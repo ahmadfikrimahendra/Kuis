@@ -1,0 +1,12 @@
+# Luas Persegi Perhitungan
+
+package Kuis_Perhitungan;
+
+public class LuasPersegi {
+   int Luas;
+   public int luaspersegi(int sisi){
+       Luas = sisi*sisi;
+       return Luas;
+         }
+    
+}

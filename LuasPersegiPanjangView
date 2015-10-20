@@ -1,0 +1,24 @@
+#Luas Persegi Panjang View
+
+package Kuis_Panel;
+
+import Kuis_Perhitungan.LuasPersegi_Panjang;
+
+
+public class Persegi_Panjang extends javax.swing.JPanel {
+
+
+    public Persegi_Panjang() {
+        initComponents();
+    }
+    
+     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+     LuasPersegi_Panjang a = new LuasPersegi_Panjang();
+        int panjang = Integer.parseInt(jTextField1.getText());
+        int lebar = Integer.parseInt(jTextField2.getText());
+        
+        int hasil = a.luasPersegiPanjang(panjang, lebar);
+        
+        jLabel3.setText("Hasil = "+hasil);
+        
+    }                 

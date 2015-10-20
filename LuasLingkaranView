@@ -1,0 +1,20 @@
+#Luas Lingkaran View
+
+package Kuis_Panel;
+
+import Kuis_Perhitungan.LuasLingkaran;
+
+public class Lingkaran extends javax.swing.JPanel {
+
+   
+    public Lingkaran() {
+        initComponents();
+    }
+    
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+     LuasLingkaran a = new LuasLingkaran();
+     double jari2 = Double.parseDouble(jTextField1.getText());
+     double hasil = a.luasLingkaran(jari2);
+     
+     jLabel2.setText("Hasil = "+hasil);
+    }
